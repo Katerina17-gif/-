@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=DM+Serif+Text:regular,italic"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Quiz</title>
+  </head>
+  <body>
+    <button id="theme-toggle"></button>
+    <div id="timer">10</div>
+    <div class="quiz">
+      <div id="number" class="quiz__number-of-current-question"></div>
+      <div class="quiz__questions questions">
+        <div class="questions__item item">
+          <div id="question" class="item__question"></div>
+          <div id="answers" class="item__answers answers"></div>
+        </div>
+      </div>
+      <div class="quiz__result"></div>
+      <button id="next-btn" class="quiz__btn-next">Next</button>
+      <div id="stats" class="quiz__stats"></div>
+      <button id="restart-btn" class="quiz__btn-restart">Restart</button>
+    </div>
+    <script src="./quiz.js"></script>
+  </body>
+</html>
